@@ -83,6 +83,10 @@ go run main.go
    ```shell
    docker stop sayhello
    ```
+
+golang server screenshot.
+![golang-screenshot](assets/golang.png)
+
 ## build
 
 1. define a Go module
@@ -97,9 +101,6 @@ go build
 ```shell
 ./hello
 ```
-
-golang server screenshot.
-![golang-screenshot](assets/golang.png)
 
 ## Roadmap
 
