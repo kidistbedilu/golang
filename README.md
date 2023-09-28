@@ -83,6 +83,20 @@ go run main.go
    ```shell
    docker stop sayhello
    ```
+## build
+
+1. define a Go module
+```shell
+go mod init kidistbedilu/hello
+```
+2. compile the code into an executable
+```shell
+go build
+```
+3. run the new `hello` executable
+```shell
+./hello
+```
 
 golang server screenshot.
 ![golang-screenshot](assets/golang.png)
