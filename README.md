@@ -55,7 +55,7 @@ go run main.go
    ```
    2. build Docker image
    ```shell
-   build . -t ghcr.io/kidistbedilu/golang:latest
+   docker build -t ghcr.io/kidistbedilu/golang:latest .
    ```
    3. test image
    ```shell
@@ -67,7 +67,7 @@ go run main.go
    ```
    5. push image to GitHub Container Registry / GHCR
    ```shell
-   push ghcr.io/kidistbedilu/golang:latest
+   docker push ghcr.io/kidistbedilu/golang:latest
    ```
    6. login to [GitHub](https://github.com/) then change the package/image from `Private` to `Public` and add `ReadMe` by connecting to a `repository`
 4. test [golang package](https://github.com/kidistbedilu/golang/pkgs/container/golang)
